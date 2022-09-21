@@ -1,0 +1,27 @@
+#Welcome-Section{
+    background-image: url(/images/rainbow.jpg);
+    background-size: cover;
+    color: aliceblue;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 4em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Welcome-Section h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1,5em;
+}
+
+.nav{
+    position: fixed;
+    margin: 10px;
+    border: 2px solid rgba(0,0,0,1.0);
+}
+.nav li{
+    display: inline;
+    
+}
