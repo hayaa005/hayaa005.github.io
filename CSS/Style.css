@@ -14,6 +14,7 @@ html, body{
     justify-content: center;
     align-items: center;
     font-size: 0.8em; 
+    
 
 }
 #Welcome-Section h1{
@@ -27,7 +28,9 @@ html, body{
 }
 .nav ul{
     margin: 0;
-    background-color: rgb(64, 43, 226); 
+    background-image: linear-gradient(blue, aqua);
+  
+    
     
 }
 .nav li{
@@ -38,7 +41,6 @@ html, body{
     display: inline-block;
     color: aqua;
     padding: 0.5em;
-    background-color: rgb(64, 43, 226);
     text-decoration: none;
     font-size: 1em
 
@@ -61,6 +63,8 @@ html, body{
     font-weight: bold;
     position: fixed;
     width: 100%;
+    
+
 
 }
 #About{
@@ -71,8 +75,8 @@ html, body{
 
     height: 100vh;
     margin: 2em 10em 0 10em;
-    font
 }
+
 .section-header{
     grid-area: header;
     font-size: 2em;
@@ -80,6 +84,7 @@ html, body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+
 .about-image{
     grid-area: picture;
     float: left;
@@ -92,7 +97,7 @@ html, body{
     font-size: 1em;
 }
 #projects{
-    margin-top: ;
+    margin-top: 0;
 }
 
 #footer{
@@ -125,6 +130,7 @@ html, body{
     font-size: 1.5em;
     font-weight: bold;
     width: 100%;
+
 
 }
 
