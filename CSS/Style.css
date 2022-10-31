@@ -1,27 +1,137 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
 #Welcome-Section{
-    background-image: url(/images/rainbow.jpg);
-    background-size: cover;
-    color: aliceblue;
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    height: 4em;
+    background-image: url(/images/blue.jpg);
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    height: 100vh;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8em; 
 
 }
 #Welcome-Section h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1,5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5em;
 }
 
 .nav{
     position: fixed;
     margin: 10px;
-    border: 2px solid rgba(0,0,0,1.0);
+}
+.nav ul{
+    margin: 0;
+    background-color: rgb(64, 43, 226); 
+    
 }
 .nav li{
     display: inline;
     
+}
+.nav a{
+    display: inline-block;
+    color: aqua;
+    padding: 0.5em;
+    background-color: rgb(64, 43, 226);
+    text-decoration: none;
+    font-size: 1em
+
+}
+.nav a:hover{
+    background-color: rgb(250, 9, 178);
+}
+.utplassering-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+
+}
+#About{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "picture main main";
+
+    height: 100vh;
+    margin: 2em 10em 0 10em;
+    font
+}
+.section-header{
+    grid-area: header;
+    font-size: 2em;
+    color: rgb(2, 2, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.about-image{
+    grid-area: picture;
+    float: left;
+    border-radius: 50%;
+    margin: 15px;
+}
+.about-content{
+    grid-area: main;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+#projects{
+    margin-top: ;
+}
+
+#footer{
+    margin: 10px;
+    background-color: aqua;
+}
+#footer ul{
+    margin: 0;
+    background-color: rgb(64, 43, 226);
+    
+}
+#footer li{
+    display: inline;
+    
+}
+#footer a{
+    display: inline-block;
+    color: aqua;
+    padding: 0.5em;
+    background-color: rgb(64, 43, 226);
+    text-decoration: none;
+    font-size: 1em
+
+}
+#footer a:hover{
+    background-color: rgb(250, 9, 178);
+}
+.utplassering-footer{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.main-footer{
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+
 }
